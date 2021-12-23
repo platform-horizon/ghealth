@@ -1,4 +1,4 @@
-module github.com/riccardotzr/ghealth
+module github.com/platform-horizon/ghealth
 
 go 1.17
 
