@@ -6,6 +6,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/platform-horizon/ghealth)](https://goreportcard.com/report/github.com/platform-horizon/ghealth)
 [![Go Reference](https://pkg.go.dev/badge/github.com/platform-horizon/ghealth.svg)](https://pkg.go.dev/github.com/platform-horizon/ghealth)
 
+[![Coverage](https://coveralls.io/repos/github/platform-horizon/ghealth/badge.svg?branch=main)](https://coveralls.io/github/platform-horizon/ghealth?branch=main)
+
 </div>
 
 GHealth is a minimal go library to check the health status of your application.
