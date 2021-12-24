@@ -1,17 +1,22 @@
-project_name: ghealth
+project_name: github.com/platform-horizon/ghealth
 
 before:
   hooks:
     - go mod tidy
     - go generate ./...
 builds:
+  - id: "{{ .ProjectName }}-{{ .Version }}"
   - skip: true
   - env:
       - CGO_ENABLED=0
+      - GO111MODULE=on
     goos:
       - linux
       - windows
       - darwin
+    flags:
+      - -trimpath
+    ldflags: -s -w -X main.versionNumber={{ .Version }} -X main.commit={{ .ShortCommit }} -X main.buildDate={{ .Date }} -X main.author={{ .Env.Author }}
 
 archives:
   - replacements:
