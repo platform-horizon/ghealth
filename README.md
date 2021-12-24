@@ -2,9 +2,9 @@
 
 # Ghealth
 
-[![Build Status](https://github.com/riccardotzr/ghealth/workflows/build/badge.svg)](https://github.com/riccardotzr/ghealth/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/riccardotzr/ghealth)](https://goreportcard.com/report/github.com/riccardotzr/ghealth)
-[![Go Reference](https://pkg.go.dev/badge/github.com/riccardotzr/ghealth.svg)](https://pkg.go.dev/github.com/riccardotzr/ghealth)
+[![Build Status](https://github.com/platform-horizon/ghealth/workflows/build/badge.svg)](https://github.com/platform-horizon/ghealth/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/platform-horizon/ghealth)](https://goreportcard.com/report/github.com/platform-horizon/ghealth)
+[![Go Reference](https://pkg.go.dev/badge/github.com/platform-horizon/ghealth.svg)](https://pkg.go.dev/github.com/platform-horizon/ghealth)
 
 </div>
 
@@ -13,7 +13,7 @@ GHealth is a minimal go library to check the health status of your application.
 ## Install
 
 ```ssh
-go get -u github.com/riccardotzr/ghealth
+go get -u github.com/platform-horizon/ghealth
 ```
 
 ## Usage
