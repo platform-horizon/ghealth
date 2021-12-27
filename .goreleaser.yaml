@@ -6,8 +6,8 @@ before:
     - go generate ./...
 builds:
   - id: "{{ .ProjectName }}-{{ .Version }}"
-  - skip: true
-  - env:
+    skip: true
+    env:
       - CGO_ENABLED=0
       - GO111MODULE=on
     goos:
